@@ -1,4 +1,10 @@
 public class Node {
-  
-  /* write your code here */
-}
+  Product product;
+  Node next;
+ 
+ 
+
+ public Node(Product product){
+  this.product = product;
+  next = null;
+  }}
